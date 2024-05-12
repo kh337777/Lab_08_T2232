@@ -1,0 +1,81 @@
+---
+title: "DSC 200 Lab08 - Importing Data -Term 2232"
+date: "`r Sys.Date()`"
+output: github_document
+---
+
+**Student Name:<insert your name here>**
+
+**Student ID:<insert ID here>**
+
+
+
+## Loading Packages
+
+```{r load-packages, message = FALSE}
+library(tidyverse)
+
+```
+
+
+## Tasks
+
+`1. Read in the nobels.csv file from the data/ folder.
+```{r}
+nobel <- read_csv(file = "data/nobel.csv")
+nobel
+```
+Write your narrative here
+
+
+
+
+`2. Split into two (STEM and non-STEM)
+
+`2.1. Create a new data frame, nobel_stem, that filters for the STEM fields (Physics, Medicine, Chemistry, and Economics).
+```{r}
+
+```
+Write your narrative below
+
+
+
+`2.2. Create another data frame, nobel_nonstem, that filters for the remaining fields.
+```{r}
+
+```
+Write your narrative here
+
+
+`3. Write out the two data frames to nobel-stem.csv and nobel-nonstem.csv, respectively, to data/.
+```{r}
+
+```
+Write your narrative here
+
+
+`4. Load the sales.xlsx file from the data/ folder, using appropriate arguments for the read_excel() function such that it looks like the output on the left (see lab handout).
+```{r}
+
+```
+Write your narrative here
+
+
+
+
+`5. Manipulate the sales data to look like the output on the right (see lab handout).
+```{r}
+
+```
+Write your narrative here
+
+
+
+
+`6. Write out the manipulated data frame to data/sales_last.xlsx to folder.
+```{r}
+
+```
+Write your narrative here
+
+
