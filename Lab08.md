@@ -1,10 +1,10 @@
 DSC 200 Lab08 - Importing Data -Term 2232
 ================
-2024-05-12
+2024-05-13
 
-**Student Name:<insert your name here>**
+**Student Name:<Khulud>**
 
-**Student ID:<insert ID here>**
+**Student ID:\<2221004941\>**
 
 ## Loading Packages
 
